@@ -3,6 +3,8 @@
 # BuiltWith Api [Official Web](https://builtwith.com/)
 > This program is created for educational purposes, it was not made for any act that breaks any law. The creator relies on the MIT license [Read The license](https://wikis.fdi.ucm.es/ELP/Licencia_MIT)
 
+> Version: v1-stable
+
 > ## Use
  - Clone this repo
  - Install the requirements (requirements.txt)
