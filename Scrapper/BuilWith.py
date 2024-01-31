@@ -24,8 +24,8 @@ class Model():
             _title = nSoup.find("h6", attrs={"class": "card-title text-secondary"})
             _title = _title.get_text(strip=True)
             self.content[_title] = {}
-            listOfContents = [a.get_text(strip=True) for a in nSoup.find_all("a", attrs={"class": "text-dark"})]
-            self.content[_title] = listOfContents
+            self.content[_title] = [a.get_text(strip=True) for a in nSoup.find_all("a", attrs={"class": "text-dark"})]
+        return self.content
 
     def run(self) -> Dict[str, str or bool]:
         """Run the scraper."""
