@@ -9,7 +9,7 @@
  - Clone this repo
  - Install the requirements (requirements.txt)
  - Run server (flask run --port 8000)
-> [!NOTE] "--port 8000" is optional
+ - Warning: "--port 8000" is optional
 
 ```bash
 git clone https://github.com/zzephryyk/BuiltWithApi
